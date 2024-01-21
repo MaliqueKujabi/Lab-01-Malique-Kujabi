@@ -370,6 +370,18 @@ ggplot(datasaurus_dozen, aes(x = x, y = y, color = dataset))+
 
 And we can use the `group_by` function to generate all the summary correlation coefficients.
 
+
+away	-0.06412835			
+bullseye	-0.06858639			
+circle	-0.06834336			
+dino	-0.06447185			
+dots	-0.06034144			
+h_lines	-0.06171484			
+high_lines	-0.06850422			
+slant_down	-0.06897974			
+slant_up	-0.06860921			
+star	-0.06296110	
+
 ```{r all-r, eval=FALSE}
 datasaurus_dozen %>%
   group_by(dataset) %>%
