@@ -260,6 +260,18 @@ In the paper, the authors simulate a variety of datasets that have the same summ
 Below is the code you will need to complete this exercise.
 Basically, the answer is already given, but you need to include relevant bits in your Rmd document and successfully knit it and view the results.
 
+
+1 dino     55.4  97.2
+ 2 dino     51.5  96.0
+ 3 dino     46.2  94.5
+ 4 dino     42.8  91.4
+ 5 dino     40.8  88.3
+ 6 dino     38.7  84.9
+ 7 dino     35.6  79.9
+ 8 dino     33.1  77.6
+ 9 dino     29.0  74.5
+10 dino     26.2  71.4
+
 Start with the `datasaurus_dozen` and pipe it into the `filter` function to filter for observations where `dataset == "dino"`.
 Store the resulting filtered data frame as a new data frame called `dino_data`.
 
